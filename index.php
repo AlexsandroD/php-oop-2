@@ -12,10 +12,8 @@ Gestite eventuali eccezioni che si possono verificare (es: carta di credito scad
 
 
     $Utenti = [
-        new Utente('Marco','Argento','Standard'),
-        new Utente('Loredana','Berté','Premium'),
-        new Utente('Gaetana','Banana','Standard'),
-        new Utente('Luca','Ward','Standard'),
+        new Utente('Marco','Argento','Standard',''),
+  
     ];
 
     var_dump($Utenti);
