@@ -9,11 +9,9 @@ Gestite eventuali eccezioni che si possono verificare (es: carta di credito scad
 <?php
     require_once __DIR__ . '/classes/product_list.php';
     require_once __DIR__ . '/classes/utenti_registrati.php';
-
-    
-  
+ 
     $Utenti = [
-        new Utente('Marco','Argento','Standard'),
+        new Utente('Marco','Argento','Standard',1234),
   
     ];
 
