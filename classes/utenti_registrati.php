@@ -1,7 +1,7 @@
 <?php
 
 class Cc {
-    private $cc;
+    private $getCc();
     
     public function getCc($int){
     $this->cc = $int;
