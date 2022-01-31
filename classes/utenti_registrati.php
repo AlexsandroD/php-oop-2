@@ -1,10 +1,10 @@
 <?php
     class Utente{
-        public $first_name;
-        public $last_name;
-        public $membership;
+        private $first_name;
+        private $last_name;
+        private $membership;
 
-        function __construct($_first_name,$_last_name,$_membership){
+        public function __construct($_first_name,$_last_name,$_membership){
             $this->first_name = $_first_name;
             $this->last_name = $_last_name;
             $this->membership = $_membership;

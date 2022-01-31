@@ -5,4 +5,5 @@
         function __construct($_cc){
             $this->cc = $_cc;       }
     }
+
 ?>
