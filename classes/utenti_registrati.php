@@ -1,4 +1,5 @@
 <?php
+
 class Cc {
     private $cc;
 
@@ -13,7 +14,7 @@ class Cc {
         public $last_name;
         public $membership;
         public $cc;
-        public $products = array();
+        public $products = [];
 
         
         public function __construct($_first_name,$_last_name,$_membership,$_cc){
@@ -23,11 +24,8 @@ class Cc {
             $this->setCc($_cc);
         }
        
-        public function addProduct(){
-            $this->products.array_push($this->Products);        }
-
+    
     }
-    var_dump($products)
 
 
 ?>
