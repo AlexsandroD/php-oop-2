@@ -1,7 +1,7 @@
 <?php
 
 class Cc {
-    private $cc;
+    protected $cc;
 
     public function setCc($int){
     $this->cc = $int;
