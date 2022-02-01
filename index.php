@@ -11,11 +11,10 @@ Gestite eventuali eccezioni che si possono verificare (es: carta di credito scad
     require_once __DIR__ . '/classes/utenti_registrati.php';
  
     $Utenti = [
-        new Utente('Marco','Argento','Standard',1234),
-  
+        new Utente('Marco','Argento','Standard',1234,),
     ];
 
-    var_dump($Utenti);
+    
 
     $Products = [
         new Product('Purse','150','black','Gucci'),
@@ -28,4 +27,10 @@ Gestite eventuali eccezioni che si possono verificare (es: carta di credito scad
         new Product('shoes','190','black','D&G'),
         new Product('Sweater','370','Brow','Gucci'),        
     ];
+
+   foreach($Products as $product){
+        $Utenti[0]->addPrudct($product);
+   }
+
+   var_dump($Utenti[0]);
 ?>
